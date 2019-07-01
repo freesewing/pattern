@@ -1,30 +1,10 @@
 <p align="center">
 <a title="Go to freesewing.org" href="https://freesewing.org/"><img src="https://freesewing.org/img/logo/black.svg" align="center" width="150px" alt="Freesewing logo"/></a>
 <br>
-<a href="https://freesewing.org/">FreeSewing</a>
+<a href="https://freesewing.org/">FreeSewing v2</a>
 </p>
 <p align="center">A JavaScript library for made-to-measure sewing patterns</p>
 <p align='center'><a
-  href="https://www.npmjs.com/package/@freesewing/pattern"
-  title="@freesewing/pattern on NPM"
-  ><img src="https://img.shields.io/npm/v/@freesewing/pattern.svg"
-  alt="@freesewing/pattern on NPM"/>
-  </a><a
-  href="https://opensource.org/licenses/MIT"
-  title="License: MIT"
-  ><img src="https://img.shields.io/npm/l/@freesewing/pattern.svg?label=License"
-  alt="License: MIT"/>
-  </a><a
-  href="https://deepscan.io/dashboard#view=project&tid=2114&pid=2993&bid=23256"
-  title="Code quality on DeepScan"
-  ><img src="https://deepscan.io/api/teams/2114/projects/2993/branches/23256/badge/grade.svg"
-  alt="Code quality on DeepScan"/>
-  </a><a
-  href="https://github.com/freesewing/freesewing/issues?q=is%3Aissue+is%3Aopen+label%3Apkg%3Apattern"
-  title="Open issues tagged pkg:aaron"
-  ><img src="https://img.shields.io/github/issues/freesewing/freesewing/pkg:pattern.svg?label=Issues"
-  alt="Open issues tagged pkg:pattern"/>
-  </a></p><p align='center'><a
   href="https://twitter.com/freesewing_org"
   title="Follow @freesewing_org on Twitter"
   ><img src="https://img.shields.io/badge/%F3%A0%80%A0-Follow%20us-blue.svg?logo=twitter&logoColor=white&logoWidth=15"
@@ -44,43 +24,54 @@
   title="Follow @freesewing_org on Twitter"
   ><img src="https://img.shields.io/badge/%F3%A0%80%A0-Follow%20us-E4405F.svg?logo=instagram&logoColor=white&logoWidth=15"
   alt="Follow @freesewing_org on Twitter"/>
-  </a></p>
+  </a>
+</p>
 
-# @freesewing/pattern
+# aaron example
 
-A (template reposiroty for a) FreeSewing pattern
+This project was bootstrapped with [Create Freesewing Pattern](https://en.freesewing.dev/create-freesewing-pattern):
 
+```js
+npm init freesewing-pattern
+```
 
+This example folder is part of the local development environment.
+It is **not** part of the pattern's source code.
+
+To run this example, follow these steps:
+
+ - In the folder above this one, run: `yarn start` (or `npm start`)
+ - Then, in new terminal, run the same command in this folder: `yarn start` (or `npm start`)
+
+This will spin up the development environment, similar to [our online demo](https://aaron.freesewing.dev/).
 
 ## About FreeSewing 🤔
 
 Where the world of makers and developers collide, that's where you'll find FreeSewing.
 
-Our [core library](https://freesewing.dev/) is a *batteries-included* toolbox
+Our [core library](https://freesewing.dev/en/freesewing) is a *batteries-included* toolbox
 for parametric design of sewing patterns. It's a modular system (check our list
-of [plugins](https://freesewing.dev/plugins) and getting started is as simple as:
+of [plugins](https://freesewing.dev/en/plugins) and getting started is as simple as:
 
 ```bash
 npm init freesewing-pattern
 ```
 
-or clone this repository.
-
-The [getting started](https://freesewing.dev/start) section on [freesewing.dev](https://freesewing.dev/) is a good
+The [getting started] section on [freesewing.dev](https://freesewing.dev/) is a good
 entrypoint to our documentation, but you'll find a lot more there, including
-our [API documentation](https://freesewing.dev/api),
-as well as [a tutorial](https://freesewing.dev/tutorial),
-and [best practices](https://freesewing.dev/do).
+our [API documentation](https://freesewing.dev/en/freesewing/api),
+as well as [examples](https://freesewing.dev/en/freesewing/examples),
+and [best practices](https://freesewing.dev/en/do).
 
 If you're a maker, checkout [freesewing.org](https://freesewing/) where you can generate
 our sewing patterns adapted to your measurements.
 
 ## Support FreeSewing: Become a patron 🥰
 
-FreeSewing is an open source project run by a community, 
+FreeSewing is an open source project run by a community,
 and financially supported by our patrons.
 
-If you feel what we do is worthwhile, you too 
+If you feel what we do is worthwhile, you too
 should [become a patron](https://freesewing.org/patrons/join).
 
 ## Links 👩‍💻
@@ -93,7 +84,7 @@ should [become a patron](https://freesewing.org/patrons/join).
 
 ## License: MIT 🤓
 
-© [Joost De Cock](https://github.com/joostdecock).  
+© [Joost De Cock](https://github.com/joostdecock).
 See [the license file](https://github.com/freesewing/freesewing/blob/develop/LICENSE) for details.
 
 ## Where to get help 🤯
@@ -102,3 +93,4 @@ Our [chatroom on Gitter](https://gitter.im) is the best place to ask questions,
 share your feedback, or just hang out.
 
 If you want to report a problem, please [create an issue](https://github.com/freesewing/freesewing/issues/new).
+
